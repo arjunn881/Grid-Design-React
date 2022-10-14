@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .header {
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    box-shadow: 2px 4px 10px lightgrey;
+    margin: 0px;
+    padding: 16px 78px;
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+  }
+  .headertext {
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+  }
+  
+  .story {
+    margin: 0px;
+    font-style: italic;
+    font-weight: 500px;
+    cursor: pointer;
+  }
+  .logo {
+    margin: 0px;
+    color: #0084ff;
+    width: 130px;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .dropdowntext {
+    color: #000;
+    margin-left: 60px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  .catagoryicon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+  .btn {
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(269deg, #0048ff, #0096ff),
+      linear-gradient(#000, #000);
+    color: #0084ff;
+    border: none;
+    font-size: 0.75em;
+    color: white;
+  }
+  .headerpara {
+    min-width: 23em;
+    opacity: 0.6;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0.5em;
+  }
+  

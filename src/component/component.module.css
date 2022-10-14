@@ -1,0 +1,77 @@
+
+h1 {
+    color: #000;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .filtertext {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .posttext {
+    
+    margin: 20px 100px 10px 100px;
+    
+  }
+  .fa-filter {
+    color: #0096ff;
+  }
+  .filtercontainer {
+    display: flex;
+    margin-left:100px;
+  }
+  .heading {
+    margin-bottom: 30px;
+    margin-left: 100px;
+  }
+  .catagoryicon {
+    display: flex;
+    align-items: center;
+    
+  }
+  .itemcontainer:hover{
+    cursor: pointer;
+    margin-bottom:30px;
+  
+  }
+  .fa-angle-down{
+    padding:8px;
+    cursor: pointer;
+  }
+  
+  .catagories {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0px 100px 0px 100px;
+  }
+  .catagory {
+    width: auto;
+    color: #0084ff;
+    margin: 5px;
+    padding: 6px 14px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .activecatagory {
+    width: auto;
+    color: #fff;
+    margin: 5px;
+    padding: 6px 14px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    cursor: pointer;
+    background-color: #0084ff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .catagory:hover {
+    background-color: #0084ff;
+    color: #fff;
+  }
